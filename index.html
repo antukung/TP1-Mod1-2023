@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Supermercado Los devs</h1>
+    </header>
+    <main>
+        <div id="opciones-productos">
+            <div id="opciones-productos-cant-mostrar">
+                <label for="opc-cant">Cantidad de productos a mostrar:</label>
+                <select id="opc-cant">
+                    <option value="1">1</option>
+                    <option value="3">3</option>
+                    <option value="7">7</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div id="opciones-productos-cant-comprar">
+                <label for="opc-cant-permitida">Cantidad permitida por cada producto:</label>
+                <select id="opc-cant-permitida">
+                    <option value="1">1</option>
+                    <option value="15">15</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                </select>
+            </div>
+            <div id="opciones-productos-colores">
+                <label for="opc-color">Colores:</label>
+                <select id="opc-color">
+                    <option value="0">Ninguno</option>
+                    <option value="1">Rojo-Amarillo</option>
+                    <option value="2">Verde-violeta</option>
+                    <option value="3">Azul-gris</option>
+                </select>
+            </div>
+            <button onclick="reiniciarProdMostrar()">Generar</button>
+        </div>
+        <div  id="info-opc-prod">
+            <p></p>
+        </div>
+        <div id="contenedor-productos">
+            <!-- <div class="producto" id="producto-1">
+                <p>Producto 1</p>
+                <div class="producto-img">
+                    <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/536/860/products/varita-harry-potter-rod-weasley1-e8ac6faf59c16b979316362331109830-640-0.jpg" alt="producto 1">
+                </div>
+                <label for="producto-tipo-pago">Seleccione pago</label>
+                <select id="producto-tipo-pago">
+                    <option value="">Efectivo</option>
+                    <option value="">Debito</option>
+                    <option value="">Credito</option>
+                </select>
+                <label for="cantidad-productos-multiplos">Seleccione cantidades</label>
+                <select id="cantidad-productos-multiplos">
+                    <option value=""></option>
+                </select>
+                <button>Comprar</button>
+            </div> -->
+        </div>
+    </main>
+
+
+    <script src="codigo.js"></script>
+</body>
+</html>
