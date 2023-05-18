@@ -5,16 +5,16 @@ const selectColorConfig = document.querySelector("#opc-color");
 const pInfoConfProd = document.querySelector("#info-opc-prod p");
 
 const vectImg = [
-    "https://d3ugyf2ht6aenh.cloudfront.net/stores/536/860/products/varita-harry-potter-rod-weasley1-e8ac6faf59c16b979316362331109830-640-0.jpg",
-    "https://files.cults3d.com/uploaders/14090674/illustration-file/26cb5144-88ac-4bd3-85ae-567590092b63/1%20(2).jpg",
-    "https://files.cults3d.com/uploaders/14090674/illustration-file/26cb5144-88ac-4bd3-85ae-567590092b63/1%20(2).jpg",
-    "https://files.cults3d.com/uploaders/14090674/illustration-file/26cb5144-88ac-4bd3-85ae-567590092b63/1%20(2).jpg",
-    "https://files.cults3d.com/uploaders/14090674/illustration-file/26cb5144-88ac-4bd3-85ae-567590092b63/1%20(2).jpg",
-    "https://files.cults3d.com/uploaders/14090674/illustration-file/26cb5144-88ac-4bd3-85ae-567590092b63/1%20(2).jpg",
-    "https://files.cults3d.com/uploaders/14090674/illustration-file/26cb5144-88ac-4bd3-85ae-567590092b63/1%20(2).jpg",
-    "https://files.cults3d.com/uploaders/14090674/illustration-file/26cb5144-88ac-4bd3-85ae-567590092b63/1%20(2).jpg",
-    "https://files.cults3d.com/uploaders/14090674/illustration-file/26cb5144-88ac-4bd3-85ae-567590092b63/1%20(2).jpg",
-    "https://files.cults3d.com/uploaders/14090674/illustration-file/26cb5144-88ac-4bd3-85ae-567590092b63/1%20(2).jpg",
+    "https://cdn-icons-png.flaticon.com/512/1554/1554591.png",
+    "https://cdn-icons-png.flaticon.com/512/1822/1822045.png",
+    "https://png.pngtree.com/png-vector/20190614/ourlarge/pngtree-carecaringhandleproductresponsibility-abstract-circle-ba-png-image_1476969.jpg",
+    "https://png.pngtree.com/png-vector/20190626/ourmid/pngtree-product-releasebusinessmodernproductrelease--business-fl-png-image_1494036.jpg",
+    "https://cdn-icons-png.flaticon.com/512/1312/1312307.png",
+    "https://png.pngtree.com/png-vector/20190809/ourlarge/pngtree-packaging-branding-marketing-product-bottle-flat-color-icon-png-image_1652448.jpg",
+    "https://png.pngtree.com/png-vector/20190525/ourlarge/pngtree-packagingbrandingmarketingproductbottle-line-icon-png-image_1066215.jpg",
+    "https://cdn-icons-png.flaticon.com/512/1170/1170577.png",
+    "https://img2.freepng.es/20180503/vow/kisspng-business-product-sample-marketing-brand-give-away-5aeac415915152.6818124515253350615952.jpg",
+    "https://images.vexels.com/media/users/3/265644/isolated/preview/b1b48e3cdd0036ef98bf0af1460d7898-icono-de-producto-de-limpieza.png"
 ];
 
 const CSS_CLASE_CONFIG = "conf-color-";
