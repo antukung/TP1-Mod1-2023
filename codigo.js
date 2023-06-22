@@ -69,6 +69,12 @@ function htmlGenerarProductos(cantidadProd, cantPermitida, confColorProd){
    }
 }
 
+/**
+ * Genera el html necesario para mostrar una lista con las cantidades permitidas por compra
+ * @param {Number} i numero del producto
+ * @param {Number} cantPermitida para compras del producto
+ * @returns el elemento para mostrar opciones de cantidad permitida por compra
+ */
 function htmlGenerarOpcionesCant(i, cantPermitida){
     return `
         <label for="cantidad-compra-prod-${i}">Seleccione cantidades</label>
@@ -79,8 +85,10 @@ function htmlGenerarOpcionesCant(i, cantPermitida){
 }
 
 
+
 /**
  * Devuelve el html necesario para agregar una lista de opciones de pago
+ * @param {Number} i numero del producto
  * @returns el html necesario para agregar una lista de opciones de pago
  */
 function htmlGenerarOpcionesPago(i){
@@ -110,12 +118,12 @@ function htmlGenerarOpciones(cant){
 }
 
 /**
- * Modifica la clase a la correspondiente dependinedo del numero de
+ * Modifica la clase de css a la correspondiente dependinedo del numero de
  * producto a agregar
  * @param {Number} i numero del producto actual a agregar
  * @param {String} claseCssUsar que necesita ser modificada
- * @returns la clase correspondiente a agregar para el producto
+ * @returns la clase de css correspondiente a agregar para el producto
  */
 function alternarColores(i, claseCssUsar){
-    return ((i%2) ? claseCssUsar+"b" : claseCssUsar+"a"); 
+    return ((i%2) ? claseCssUsar+"b" : claseCssUsar+"a");
 }
