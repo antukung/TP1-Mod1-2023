@@ -35,7 +35,7 @@ function reiniciarProdMostrar(){
  * Muestra en la pagina la info seleccionada por el usuario para los productos
  * @param {Number} cantProdMostrar en la pagina
  * @param {Number} cantProdPermitidos a comprar en la pagina por producto
- * @param {Number} confColorProd en valor numerico
+ * @param {Number} confColorProd en valor numerico correspondiente a la opcion de color seleccionada
  */
 function mostrarInfoConfProd(cantProdMostrar, cantProdPermitidos, confColorProd) {
     pInfoConfProd.innerHTML = `
@@ -49,14 +49,14 @@ function mostrarInfoConfProd(cantProdMostrar, cantProdPermitidos, confColorProd)
  * Genera el html para agregar productos segun los valores requeridos
  * @param {Number} cantidadProd a agregar en la pagina
  * @param {Number} cantPermitida a comprar de cada producto
- * @param {Number} confColorProd en valor numero correspondiente
+ * @param {Number} confColorProd en valor numero correspondiente a la opcion de color seleccionada
  */
 function htmlGenerarProductos(cantidadProd, cantPermitida, confColorProd){
     let claseCssUsar = CSS_CLASE_CONFIG + confColorProd + "-";
     divContenedorProductos.innerHTML = "";
     for (let i = 0; i < cantidadProd; i++) {
         divContenedorProductos.innerHTML +=`
-            <div class="producto ${alternarColores(i, claseCssUsar)}" id="producto-${i}">
+            <div class="producto ${(alternarColores(i, claseCssUsar))}" id="producto-${i}">
                 <p>Producto ${i+1}</p>
                 <div class="producto-img">
                     <img src="${vectImg[i]}" alt="producto ${i}">
