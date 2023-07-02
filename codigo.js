@@ -3,6 +3,7 @@ const selectCantProductosMostrar = document.querySelector("#opc-cant");
 const selectCantProdPermitida = document.querySelector("#opc-cant-permitida");
 const selectColorConfig = document.querySelector("#opc-color");
 const pInfoConfProd = document.querySelector("#info-opc-prod p");
+const parrafoContador= document.querySelector("#contador");
 
 const vectImg = [
     "https://cdn-icons-png.flaticon.com/512/1554/1554591.png",
@@ -126,4 +127,11 @@ function htmlGenerarOpciones(cant){
  */
 function alternarColores(i, claseCssUsar){
     return ((i%2) ? claseCssUsar+"b" : claseCssUsar+"a");
+}
+/*Agrego un boton de contador para que sume de a uno*/
+
+let clickContador= 0;
+
+function clicDeContador() {
+    parrafoContador.innerHTML= ++clickContador;
 }
