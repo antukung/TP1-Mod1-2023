@@ -1,86 +1,13 @@
-body{
-    display: grid;
-    place-content: center;
-    background-color: rgb(218, 228, 218);
-    font-size: 2.5vh;
-}
-
-header{
-    display: grid;
-    place-content: center;
-}
-
-#opciones-productos{
-    display: grid;
-    place-content: center;
-}
-
-#contenedor-productos{
-    display: flex;
-    flex-wrap: wrap;
-    place-content: center;
-    background-color: rgb(172, 218, 172);
-}
-
-.producto{
-    display: grid;
-    place-content: center;
-    background-color: rgb(145, 200, 145);
-    border: 2px solid rgb(36, 117, 36);
-    margin: 2px;
-    padding: 3px;
-}
-
-.producto select{
-    font-size: 2.5vh;
-    margin: 3px;
-}
-
-.producto-img{
-    display: grid;
-    place-content: center;
-    margin: 4px;
-}
-.producto-img img{
-    width: 150px;
-}
-
-
-main{
-    display: grid;
-    place-content: center;
-}
-
-
-#info-opc-prod{
-    display: grid;
-    place-content: center;
-}
-
-#info-opc-prod p{
-    text-align: center;
-    background-color: rgb(171, 183, 171);
-    width: 50vw;
-}
-
-
-.conf-color-1-a{
-    background-color: red;
-}
-.conf-color-1-b{
-    background-color: yellow;
-}
-
-.conf-color-2-a{
-    background-color: green;
-}
-.conf-color-2-b{
-    background-color: violet;
-}
-
-.conf-color-3-a{
+#contenedor {
     background-color: blue;
+    display: grid;
+    place-content: center;
 }
-.conf-color-3-b{
+
+body {
+    background-color: aquamarine;
+}
+
+#boton {
     background-color: gray;
 }
